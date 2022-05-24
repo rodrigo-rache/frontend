@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+	<head>
+		<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="widht=devide-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../style.css">
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #666;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #ccc;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #f1f1f1;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #777;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+	</head>
+	<body>
+		<header>
+			<h2>Curso Front End HTML</h2>
+		</header>
+		<section>
+			<nav>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="./06-formulario.html">Contato</a></li>
+			</nav>
+			<article>
+				<h1>Título do artigo</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod nisl at lectus faucibus, viverra interdum massa placerat. Proin ut lobortis magna. Suspendisse hendrerit erat nec mollis malesuada. Quisque ut neque ut tellus consequat blandit. Fusce in placerat magna, at vulputate ligula. Quisque faucibus eu metus non fringilla. In hac habitasse platea dictumst. Curabitur finibus ex vel sapien pretium, vitae facilisis mi consectetur. Duis ac euismod turpis, id ultrices justo. Integer consectetur iaculis congue. Vivamus id turpis nisi. Donec at nibh dolor. Integer eget fringilla nunc. Duis faucibus efficitur purus eget hendrerit. In a pulvinar dui.</p>
+				<p>Sed fringilla arcu ac pharetra facilisis. Suspendisse eleifend, leo eu maximus dapibus, orci mauris elementum dolor, sit amet porta sapien mauris et est. Sed ultrices varius enim sed rhoncus. Mauris eu risus ut lacus maximus pellentesque tincidunt eu nisl. Ut leo sem, fermentum lacinia tincidunt eget, pharetra id nunc. Cras non ante vel risus auctor sollicitudin sed vitae ex. Aliquam ullamcorper scelerisque diam eu consectetur. Nullam rutrum semper arcu eget mollis. Aliquam dignissim bibendum gravida. Vivamus at sem varius, ultrices tellus eget, ultrices augue. Fusce dictum neque eget ante ultricies rutrum.</p>
+				<p>Pellentesque eget elit sed ex mollis dictum. Fusce nec aliquam mi. Curabitur est quam, efficitur ut sollicitudin vitae, posuere a lorem. Nunc vitae tortor ipsum. Duis bibendum justo sit amet elit dictum, tincidunt hendrerit nunc ultrices. Sed ac ante non nisi scelerisque feugiat sed ac massa. Fusce congue cursus dolor. Mauris fermentum in ante interdum rutrum. Etiam dictum luctus lacinia. Etiam malesuada hendrerit tellus, nec tempor purus rhoncus eget. Maecenas viverra augue ac ipsum tincidunt, id bibendum purus sagittis. Pellentesque quis egestas mauris, ultricies tristique velit. Donec viverra, lorem eget tincidunt porttitor, augue enim convallis dolor, quis lacinia dolor lorem vel tellus. Aenean ultrices lectus ac orci lobortis vehicula.</p>
+		</section>
+			<footer>
+				<p>Desenvolvido por Rodrigo</p>
+			</footer>
+
+	</body>
+</html>
