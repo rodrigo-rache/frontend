@@ -1,10 +1,56 @@
-- 👋 Hi, I’m @rodrigo-rache
-- 👀 I’m interested in develop new skills
-- 🌱 I’m currently learning .html, .css, .js
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me... feel free to e-mail me rodrigo.rache01@gmail.com
+# GIT
+## versionamento
+- Histórico
+- Controle de versão
+- Quem alterou
+- O que alterou
+- Quando alterou
+- Todos os arquivos
+- Evolução contínua
 
-<!---
-rodrigo-rache/rodrigo-rache is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+Arquivo A | Versão 1 | Versão 2
+Arquivo B | Versão 1 | Versão 2
+
+## Instalação do Git
+
+## Criação conta GitHub
+
+## Clonar projetos
+
+## Commits
+Informação da alteração
+- após o teste do código
+- git add *
+- git commit -m "mensagem"
+- git push (enviar alterações para o repositório)
+- git pull (puxar alterações do repositório para as maquinas)
+
+
+## Gitflow
+Fluxo do Git
+
+### Branchs
+são ramificações / versões paralelas
+
+- main / master (projeto principal, tudo fechado na develop e pronto para ser publicado)
+- develop (todasgit as alterações para teste)
+- DOD (Definition of Done): critérios de aceite
+- versionamento 0(versão - vai para produção).1(grandes mudanças).10(pequenas mudanças)
+
+- git checkout -b (cria uma branch)
+- git checkout (muda a branch)
+
+### Merge
+Mescla de branchs
+Você pode precisar desenvolver conflitos manualmente
+- git merge (mediar o código)
+
+### Pull Request
+Mescla de branchs no repositório
+Permite o Code Review
+O repositório resolve os conflitos automaticamente
+
+### configurando o gitflow
+- git flow int
+- git flow feature start (nome-da-feature)
