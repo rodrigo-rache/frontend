@@ -54,4 +54,3 @@ O repositório resolve os conflitos automaticamente
 ### configurando o gitflow
 - git flow int
 - git flow feature start (nome-da-feature)
-=======
