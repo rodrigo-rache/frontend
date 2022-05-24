@@ -34,12 +34,23 @@ Fluxo do Git
 são ramificações / versões paralelas
 
 - main / master (projeto principal, tudo fechado na develop e pronto para ser publicado)
-- develop (todas as alterações para teste)
+- develop (todasgit as alterações para teste)
 - DOD (Definition of Done): critérios de aceite
 - versionamento 0(versão - vai para produção).1(grandes mudanças).10(pequenas mudanças)
 
-git checkout -b (cria uma branch)
-git checkout (muda a branch)
+- git checkout -b (cria uma branch)
+- git checkout (muda a branch)
 
 ### Merge
 Mescla de branchs
+Você pode precisar desenvolver conflitos manualmente
+- git merge (mediar o código)
+
+### Pull Request
+Mescla de branchs no repositório
+Permite o Code Review
+O repositório resolve os conflitos automaticamente
+
+### configurando o gitflow
+- git flow int
+- git flow feature start (nome-da-feature)
