@@ -7,7 +7,6 @@ font-family: 'Montserrat Alternates', sans-serif;
 
 html {
     font-size: 62.5%;
-    width: 100%;
 }
 
 body {
@@ -92,7 +91,7 @@ section {
 section nav {
     display: block;
     float: left;
-    width: 30%;
+    width: 27%;
     padding: 20px;
 }
 
@@ -138,4 +137,27 @@ footer small {
 
 #call {
     text-align: center;
+}
+
+.cognito {
+    height: 380px !important;
+    overflow: hidden !important;
+}
+
+.cog-form__container {
+    background-color: #9003DD !important;
+}
+
+label {
+    color: #fff !important;
+}
+
+.cog-heading {
+    visibility: hidden !important;
+}
+
+.el-button.cog-button--has-status.cog-button--primary.cog-button--navigation.el-button--default.cog-button.cog-button--submit {
+    background-color: #fff !important;
+    border: 1px #fff !important;
+    color: #9003DD !important;
 }
