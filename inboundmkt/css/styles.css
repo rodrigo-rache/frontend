@@ -161,3 +161,20 @@ label {
     border: 1px #fff !important;
     color: #9003DD !important;
 }
+
+@media (max-width: 600px) {
+    section nav,
+    section article {
+        width: 100%;
+    }
+    .container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cognito {
+        visibility: hidden !important;
+    }
+}
+    .cognito/
