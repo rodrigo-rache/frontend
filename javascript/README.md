@@ -373,14 +373,17 @@ entrada (e): 3000
 pretacao (p): 750
 valor com entrada (ve): 27000
 
+let vt = 30000
+let e = 3000
+let p = 750
+
+    (vt - e)/p = 36
+
     vt - e = ve
     ve / p = 'resposta'
 
     30000 - 3000 = 27000
     27000 / 750 = 36
         
-
-
-
 f) Somando as variáveis de cores é formada uma string de quantos caracteres?
 (branco + preto + cinza).length = 16
