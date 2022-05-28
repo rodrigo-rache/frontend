@@ -462,3 +462,11 @@ Seleciona o objeto e disponibiliza (métodos/funções).callback
 https://dom.spec.whatwg.org/
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 https://pt.wikipedia.org/wiki/lista_de_motores_de_renderização
+
+## Seletores
+- tipos de seletores: tag, id, class, name, query
+- callback
+- getElementById()
+- getElementByTagName()
+- getElementByName()
+- getElementClassName()
