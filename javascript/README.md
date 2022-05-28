@@ -387,3 +387,78 @@ let p = 750
         
 f) Somando as variáveis de cores é formada uma string de quantos caracteres?
 (branco + preto + cinza).length = 16
+
+# DOM
+
+- document object model
+- estrutura de uma pag web
+- representa arquivos html ou xml
+- interface de programacao
+- NÃO é uma linguagem
+- é essencial para o JS compreender o modelo de pág da web
+
+## para que serve?
+- alterar estrutura
+- alterar estilo
+- alterar o conteúdo
+
+## como acontece?
+- disponibilida de api (Application Programme Interface)
+- rotinas e padrões estabelecidos
+- métodos (funções)
+- árvore de elementos
+- seletores
+- objetos (nós/nodes)
+
+### exemplo html
+````
+<html>
+    <head></head>
+    <body></body>
+</html>`
+````
+### exemplo objeto
+````
+objeto = {
+    html : {
+        head : {},
+        body : {
+            h1 : {},
+            h2 : {}
+        }
+    }
+}
+````
+## DOM X JS
+- DOM pode ser usado em outras paginas
+- Sem o DOM o JS não compreenderia a página
+
+### vantagens do JS
+- código é executado por navegadores
+- tornar as páginas dinâmicas
+- evitar requisições desnecessárias (performances)
+- Single page aplications (SPA)
+- reagir a ações do usuário
+
+### Exemplos
+Seleciona o objeto e disponibiliza (métodos/funções).callback
+
+- document.getElementById(id)
+- document.getElementByTagName('div')
+- document.createElement('div')
+- parentNode.appendChild(node) // html.appendChild('body')
+- element.innerHTML
+- element.setAttribute()
+- element.getAttribute()
+- element.setAttribute()
+- element.addEventListener()
+- window.location
+- window.onload (en-US)
+- console.log
+- window.scrollTo()
+
+### Referências
+
+https://dom.spec.whatwg.org/
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+https://pt.wikipedia.org/wiki/lista_de_motores_de_renderização
