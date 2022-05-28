@@ -1,0 +1,73 @@
+
+body {
+    color: #ddf;
+    background-color: #90d;
+
+}
+
+section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#produtos img {
+    height: 200px;
+    width: auto;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+.nav-link {
+    color: #ddf;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    color: #90d
+}
+
+.btn.btn-lgs {
+    color:#90d;
+    background-color: #ddf;
+    font-weight: 500;
+}
+
+.btn.btn-lgs:hover {
+    color:#90d;
+    background-color: #fff;
+    font-weight: 500;
+}
+
+.card {
+    background-color: #90d;
+
+}
+
+h2 {
+    border-top: 1px solid #fff;
+    padding: 2rem;
+}
+
+.btn.btn-lg {
+    background-color: #000;
+    color: #90d;
+}
+
+.btn.btn-lg:hover {
+    background-color: #fff;
+    color: #90d;
+}
+
+.input-group {
+    justify-content: space-evenly;
+}
+

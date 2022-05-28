@@ -1,0 +1,426 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Projeto ## Bootstrap</title>
+
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style/custom.css">
+
+  </head>
+
+  <body>
+
+    <header>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col">
+
+                    <h1>Logo</h1>
+
+                </div>
+
+                <div class="col">                    
+                    
+                    <ul class="nav justify-content-end">
+
+                        <li class="nav-item"><a class="nav-link active" href="#">Página Inicial</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+
+                    </ul>
+                
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+<section id="sobre">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-7 col-sm-12">
+
+                <h1>Sobre nós</h1>
+
+                <p>No fundo, qualquer coisa que fazemos é para alguém. Mesmo que o sentimento seja algo individual, há sempre uma outra parte que será impactada, direta ou indiretamente, pelas suas ações. No mundo da tecnologia, essa é uma realidade </p>
+                <p>Há uma certa noção, um pré conceito, criado pela sociedade de que profissionais da tecnologia não desejam trabalhar com pessoas e que, na busca da impessoalidade, escolheram esse ramo.</p>
+
+                <a class="btn btn-lgs" href="#produtos">Nossas ações</a>
+
+            </div>
+
+            <div class="col-md-5 col-sm-12">
+
+                <img src="../images/people.svg" alt="Pessoas" class="img-fluid">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="produtos">    
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h2>Nossas ações</h2>
+
+                <div class="card">
+
+                    <img src="../images/group.svg" alt="grupo de pessoas" class="img-fluid">
+                    
+                    <div class="card-body">
+
+                        <h5 class="card-title">Terapia em Grupo</h5>
+                        <p class="card-text">Uma das mais ricas práticas de terapias, a terapia em grupo exlucisva para profissionais da tecnologia, um momento para compartilhar e validar desafios e dores.</p>
+                        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Entenda mais</a>
+
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <img src="../images/woman-and-shrink.svg" alt="Mulher e terapeuta" class="img-fluid">
+                    
+                    <div class="card-body">
+
+                        <h5 class="card-title">Terapia</h5>
+                        <p class="card-text">Na busca de compreensão de si, a terapia apresenta um grande valor para o desenvolvimento pessoal. A busca de si mesmo começa por aqui.</p>
+                        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver produto</a>
+
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <img src="../images/speaker.svg" alt="Mão e microfone" class="img-fluid">
+                    
+                    <div class="card-body">
+
+                        <h5 class="card-title">Palestra</h5>
+                        <p class="card-text">Para empresas do mundo da tecnologia, um profissional que entende a língua e os desafios do dia a dia é fundamental para gerar engajamento e melhorar o ambiente.</p>
+                        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">Ver produto</a>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<section id="contato">
+
+    <div class="container">    
+
+        <div class="row">
+
+            <div class="col-md-12 col-sm-12">
+
+                <h2>Contato</h2>
+                <p>Ficou interessade? Preencha os campos para receber mais informações.</p>
+
+            </div>
+
+            <div class="col-md-12 col-sm-12">
+
+                <form class="form">
+
+                    <div class="input-group">
+
+                        <input class="form-control" type="text" name="nome" placeholder="Seu Nome">
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input class="form-control" type="text" name="email" placeholder="exemplo@email.com">
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="checkbox" name="assunto">Terapia em Grupo
+                        <input type="checkbox" name="assunto">Terapia
+                        <input type="checkbox" name="assunto">Palestra
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <textarea class="form-control" name="" rows="5"></textarea>
+
+                    </div>
+
+                    <button type="submit" class="btn btn-lg">Quero saber mais</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <div class="modal fade" id="modal-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                   
+                    <h5 class="modal-title">Encontros:</h5>
+
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <h6>Confira os encontros e sua duração</h6>
+
+                    <table class="table table-hover table-striped">
+
+                        <thead>                       
+                            
+                            <tr>
+
+                                <th>Temática</td>
+
+                                <th>Duração</td>
+
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>Tecnologia e Stress</td>
+
+                                <td>120 minutos</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>Ninguém sabe mas acha que sabe</td>
+
+                                <td>90 minutos</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>Troca de Experiências</td>
+
+                                <td>90 minutos</td>
+
+                            </tr>
+
+                        </tbody>
+
+
+                    </table>
+
+                </div>
+                
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-2">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                   
+                    <h5 class="modal-title">Terapia</h5>
+
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <h6>Profissional e Valor da hora</h6>
+
+                    <table class="table table-hover table-striped">
+
+                        <thead>                       
+                            
+                            <tr>
+
+                                <th>Nome Sobrenome</td>
+
+                                <th>Valor/h</td>
+
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>Nome Sobrenome</td>
+
+                                <td>R$50,00/h</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>Nome Sobrenome</td>
+
+                                <td>R$30,00/h</td>
+
+                            </tr>
+
+                            <tr>
+
+                        </tbody>
+
+
+                    </table>
+
+                </div>
+                
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-3">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                   
+                    <h5 class="modal-title">Palestras</h5>
+
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <h6>Confira o tema e os preços</h6>
+
+                    <table class="table table-hover table-striped">
+
+                        <thead>                       
+                            
+                            <tr>
+
+                                <th>Palestra</td>
+
+                                <th>Valor</td>
+
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>A psicologia da Programação</td>
+
+                                <td>R$10.000,00</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>Como agir com seu cliente?</td>
+
+                                <td>R$20.000,00</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>As diferenças e suas contribuições</td>
+
+                                <td>R$15.000,00</td>
+
+                            </tr>
+
+                        </tbody>
+
+
+                    </table>
+
+                </div>
+                
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
