@@ -321,7 +321,7 @@ https://developer.mozilla.org/pt-br/docs/Web/JavaScript/Guide/Expressions_and_op
 2. Calcular a media de 3 numeros com entradas pelo formulario HTML;
 - link da media feito no jsfiddle - https://jsfiddle.net/jr0m632v/
 
-# Exercício:
+# Exercício JavaScript II
 
 1. Resolva as operações:
 ● 10 + 15 = 25 (number)
