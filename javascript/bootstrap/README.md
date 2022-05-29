@@ -36,3 +36,23 @@
 - uso excessivo
 - override de estilo (sobreposição)
 - abstração de estilos
+
+## Componentes
+- blocos/modelos/templates reutilizáveis
+https://getbootstrap.com/docs/5.2/components
+
+## Helpers
+- funções básicas
+- incrementos
+- ajustes
+
+### Exemplos
+    // <div class="ratio ratio-21x9"></div>
+    - o "ratio" é um helper para redimensionar a imagem.
+    // <div class="clearfix"></div>
+    - o "clearfix" é um helper para quebra de linhas
+
+### Utilitários
+
+### FontAwesome
+- icones

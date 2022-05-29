@@ -67,3 +67,16 @@ h2 {
     color: #90d;
 }
 
+.d-block.w-100 {
+    height: 20rem;
+    width: auto;
+}
+
+section.carrousel {
+    margin: auto 500px;
+    border-bottom: 1px solid #fff;
+}
+
+.card-body {
+    height: 220px;
+}
