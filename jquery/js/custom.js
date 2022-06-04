@@ -48,15 +48,34 @@ $(document).ready(function(){
         alert('Produto esgotado');
 
      })
-     
-     
-     
-     
+/*
+     // Callback
+   $('.featured-item:nth(1)').hide(2000, function(){
+      // este é o callback
+      alert($(this).find('h4').text() + ' esgotado' );
+   })
+*/
+
+/* 
+   // Animações
+*/
+   $('.featured-item:nth(0)')
+      .hide()
+      .show()
+      .fadeIn()
+      .fadeOut()
+
+   $('#form-submit').on('click', function(e){
+      e.preventDefault()
+
+      if($('email').val().length < 1){
+         $('email').animate({
+            'border': '2px solid #f00'
+         })
+      }
 
 
-
-
-
+   })
 
 
 })
